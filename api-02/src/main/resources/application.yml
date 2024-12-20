@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: api02-server
+
+server:
+  port: 7802
+  servlet:
+    context-path: /api02
