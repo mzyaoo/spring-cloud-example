@@ -29,4 +29,9 @@ public class SysConfigController {
         return Result.success(sysConfig);
     }
 
+    @GetMapping("pojo/getById/{id}")
+    public SysConfig getConfigById(@PathVariable Long id) {
+        return sysConfigService.getById(id);
+    }
+
 }

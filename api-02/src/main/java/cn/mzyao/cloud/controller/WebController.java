@@ -15,7 +15,7 @@ public class WebController {
      */
     @GetMapping("index")
     public Result<?> index(){
-        return Result.success("Hello,World");
+        return Result.success("Hello,Api02");
     }
 
 }

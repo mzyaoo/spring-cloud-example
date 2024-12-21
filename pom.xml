@@ -112,6 +112,12 @@
                 <version>2.13.5</version>
             </dependency>
 
+            <!-- https://mvnrepository.com/artifact/io.github.openfeign/feign-okhttp -->
+            <dependency>
+                <groupId>io.github.openfeign</groupId>
+                <artifactId>feign-okhttp</artifactId>
+                <version>13.1</version>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>
