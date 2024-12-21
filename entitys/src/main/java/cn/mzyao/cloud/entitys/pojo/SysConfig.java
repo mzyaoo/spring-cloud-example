@@ -1,16 +1,15 @@
-package cn.mzyao.cloud.mybatis.entitys;
+package cn.mzyao.cloud.entitys.pojo;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 import org.springframework.format.annotation.DateTimeFormat;
 
-import java.io.Serializable;
 import java.time.LocalDateTime;
 
 @Data
 @TableName("sys_config")
-public class SysConfig implements Serializable {
+public class SysConfig {
 
     private Long id;
 
