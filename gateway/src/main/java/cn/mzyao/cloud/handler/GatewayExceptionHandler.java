@@ -30,7 +30,7 @@ public class GatewayExceptionHandler implements ErrorWebExceptionHandler {
         JSONObject resultObj = JSONUtil.createObj();
         if (throwable instanceof ResponseStatusException){
             resultObj.set("errorCode","40400");
-            resultObj.set("errorMsg","资源未找到");
+            resultObj.set("errorMsg","资源服务未找到！");
         }else{
             resultObj.set("errorCode","50000");
             resultObj.set("errorMsg","网关错误，请联系管理员！");
