@@ -13,9 +13,9 @@
         <module>api-02</module>
         <module>gateway</module>
         <module>commons</module>
-        <module>entitys</module>
         <module>openfeign</module>
         <module>api-01</module>
+        <module>mappers</module>
     </modules>
 
     <properties>
