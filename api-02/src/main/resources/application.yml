@@ -5,6 +5,12 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
+      config:
+        server-addr: 127.0.0.1:8848
+  config:
+    import:
+      - nacos:api02-server.yaml?refresh=true&group=DEFAULT_GROUP
+      - nacos:mybatis.yaml?refresh=true&group=DEFAULT_GROUP
 
 server:
   port: 7802
