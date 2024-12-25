@@ -20,6 +20,10 @@ import java.util.List;
 
 public class SentinelRulesManage {
 
+    public static void main(String[] args) {
+        System.out.println(System.getProperty("user.dir"));
+    }
+
     // 限流规则
     public void initFlowRules() {
         // 单 IP 查看题目列表限流规则

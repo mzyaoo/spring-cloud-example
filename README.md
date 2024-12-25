@@ -16,5 +16,5 @@
 - gateway: 网关模块
 - commons: 公共模块
 - entitys: 实体模块
-- mappers: mapper 模块
+- mappers: 数据访问层
 - openfeign: 远程调用案例模块
