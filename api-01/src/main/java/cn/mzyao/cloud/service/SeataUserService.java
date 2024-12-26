@@ -1,4 +1,7 @@
 package cn.mzyao.cloud.service;
 
-public interface SeataUserService {
+import cn.mzyao.cloud.entitys.pojo.SeataUser;
+import com.baomidou.mybatisplus.extension.service.IService;
+
+public interface SeataUserService extends IService<SeataUser> {
 }

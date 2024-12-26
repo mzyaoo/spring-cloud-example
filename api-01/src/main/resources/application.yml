@@ -3,9 +3,9 @@ spring:
     name: api01-server
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/cloud-db
+    url: jdbc:mysql://127.0.0.1:3306/cloud-db
     username: root
-    password: root1234
+    password: 66alwWqIat!vasd
   cloud:
     nacos:
       discovery:

@@ -6,7 +6,7 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @EnableDiscoveryClient
-//@ServletComponentScan
+@ServletComponentScan
 @SpringBootApplication
 public class Api01Application {
 
