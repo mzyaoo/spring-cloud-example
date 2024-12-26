@@ -1,5 +1,20 @@
 # spring-cloud-example
 
+## 模块说明
+```markdown
+├── spring-cloud-example
+│   ├── README.md
+│   ├── db         // 数据库脚本
+│   ├── api-01     // 业务模块 1
+│   ├── api-02     // 业务模块 2
+│   ├── commons    // 公共模块
+│   ├── entitys    // 实体模块
+│   ├── gateway    // 网关模块
+│   ├── mappers    // mapper模块
+│   ├── openfeign  // 远程调用案例模块
+└── pom.xml
+```
+
 ## 版本说明
 - Spring Boot 2.7.18
 - Spring Cloud 2021.0.5
@@ -10,11 +25,3 @@
 - gateway
 - openfeign 
 
-## 模块说明
-- api-01: api 模块
-- api-02: api 模块
-- gateway: 网关模块
-- commons: 公共模块
-- entitys: 实体模块
-- mappers: 数据访问层
-- openfeign: 远程调用案例模块
