@@ -76,4 +76,12 @@ public class Result <T> implements Serializable {
         return ResponseCode.SUCCESS.getCode() == ret.getCode();
     }
 
+    public Result() {
+    }
+
+    public Result(int code, String msg, T data) {
+        this.code = code;
+        this.msg = msg;
+        this.data = data;
+    }
 }

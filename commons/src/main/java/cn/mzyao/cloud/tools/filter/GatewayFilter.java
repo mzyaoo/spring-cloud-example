@@ -1,9 +1,9 @@
 package cn.mzyao.cloud.tools.filter;
 
 import cn.hutool.core.util.StrUtil;
-import cn.hutool.http.HttpStatus;
 import cn.hutool.json.JSONUtil;
 import cn.mzyao.cloud.tools.enums.ResponseCode;
+import cn.mzyao.cloud.tools.exception.GatewayException;
 import cn.mzyao.cloud.tools.result.Result;
 import lombok.extern.slf4j.Slf4j;
 
