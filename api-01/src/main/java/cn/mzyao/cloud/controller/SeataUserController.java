@@ -39,7 +39,8 @@ public class SeataUserController {
      */
     @PostMapping("/user/balance/decrease")
     public Result<?> userBalanceDe(Integer userId, BigDecimal money) {
-        LambdaQueryWrapper<SeataUser> queryWrapper = Wrappers.lambdaQuery(SeataUser.class).eq(SeataUser::getId, userId);
+        LambdaQueryWrapper<SeataUser> queryWrapper = Wrappers.lambdaQuery(SeataUser.class)
+                .eq(SeataUser::getId, userId);
         SeataUser user = seataUserService.getOne(queryWrapper);
         if (user == null) {
             return Result.fail("用户不存在！");

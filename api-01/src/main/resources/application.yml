@@ -5,7 +5,8 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/cloud-db
     username: root
-    password: 66alwWqIat!vasd
+#    password: 66alwWqIat!vasd
+    password: root1234
   cloud:
     nacos:
       discovery:
@@ -39,3 +40,14 @@ seata:
       server-addr: 127.0.0.1:8848
       username: 'nacos'
       password: 'nacos'
+
+knife4j:
+  enable: true
+  openapi:
+    title: "接口文档"
+    version: 1.0
+    group:
+      default:
+        api-rule: package
+        api-rule-resources:
+          - cn.mzyao.cloud.controller
