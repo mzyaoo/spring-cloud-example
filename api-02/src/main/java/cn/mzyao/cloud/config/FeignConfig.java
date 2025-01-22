@@ -27,16 +27,4 @@ public class FeignConfig {
         };
     }
 
-
-//    @Bean
-//    public Decoder feignDecoder(ObjectProvider<HttpMessageConverters> messageConverters) {
-//        return new OptionalDecoder((new ResponseEntityDecoder(new ResponseDecoder(new SpringDecoder(messageConverters)))));
-//    }
-
-    @Bean
-    public Decoder feignDecoder() {
-        return new ResponseDecoder();
-    }
-
-
 }

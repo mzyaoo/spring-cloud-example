@@ -26,7 +26,7 @@ public interface Api01FeignClient {
      * @return
      */
     @PostMapping(value = "/api01/seata/user/balance/decrease", consumes = {MediaType.MULTIPART_FORM_DATA_VALUE})
-    Result<?> userBalanceDecrease(@RequestPart("userId") Integer userId,
+    Result userBalanceDecrease(@RequestPart("userId") Integer userId,
                                @RequestPart("money") BigDecimal money);
 
 }

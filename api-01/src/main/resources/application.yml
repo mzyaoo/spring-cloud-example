@@ -31,8 +31,8 @@ seata:
     nacos:
       serverAddr: 127.0.0.1:8848
       dataId: "seata.properties"
-      username: 'nacos'
-      password: 'nacos'
+      username: nacos
+      password: nacos
   registry:
     type: nacos
     nacos:

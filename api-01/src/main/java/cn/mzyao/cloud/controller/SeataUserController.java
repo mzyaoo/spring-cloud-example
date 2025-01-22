@@ -38,7 +38,7 @@ public class SeataUserController {
      * @return
      */
     @PostMapping("/user/balance/decrease")
-    public Result<?> userBalanceDe(Integer userId, BigDecimal money) {
+    public Result userBalanceDe(Integer userId, BigDecimal money) {
         LambdaQueryWrapper<SeataUser> queryWrapper = Wrappers.lambdaQuery(SeataUser.class)
                 .eq(SeataUser::getId, userId);
         SeataUser user = seataUserService.getOne(queryWrapper);
