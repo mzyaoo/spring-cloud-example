@@ -29,7 +29,7 @@
 
 总接口地址：http://localhost:7811/doc.html
 
-## 功能说明
+## 完成情况
 
 `api01`:业务模块 1，完成整合 `nacos`,`knife4j接口文档`<br/>
 `api02`:业务模块 2，完成整合 `nacos`,`knife4j接口文档`,`分布式事务初步完成`<br/>
